@@ -30,6 +30,21 @@ nav {
     padding: 5% 3%;
 }
 
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 5%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 main,
 footer,
 section,
@@ -64,6 +79,19 @@ footer {
     background-color: #d7e5cf;
     padding: 5% 3%;
     text-align: center;
+}
+
+footer form input {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+#submit {
+    width: 30%;
 }
 
 .hide {
