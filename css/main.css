@@ -4,12 +4,29 @@
     padding: 0;
 }
 
+body {
+    background-color: #688374;
+}
 header,
 nav,
 main,
 footer {
     width: 75%;
     margin: auto;
+}
+
+header {
+    background-color: #d7e5cf;
+}
+
+nav {
+    background-color: #776575;
+}
+
+section,
+aside,
+footer {
+    background-color: #f6fafb;
 }
 
 section {
