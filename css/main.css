@@ -22,10 +22,12 @@ main {
 
 header {
     background-color: #d7e5cf;
+    padding: 10% 3%;
 }
 
 nav {
     background-color: #776575;
+    padding: 5% 3%;
 }
 
 main,
@@ -35,16 +37,19 @@ aside {
     background-color: #f6fafb;
 }
 
+section,
+aside {
+    padding: 6%;
+}
+
 section {
-    width: 75%;
-    float: right;
-    flex: 1;
+    width: 70%;
+    float: left;
 }
 
 aside {
-    width: 25%;
-    float: left;
-    flex: 1;
+    width: 30%;
+    float: right;
 }
 
 img {
@@ -56,4 +61,11 @@ img {
 
 footer {
     clear: both;
+    background-color: #d7e5cf;
+    padding: 5% 3%;
+    text-align: center;
+}
+
+.hide {
+    display: none;
 }
