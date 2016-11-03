@@ -7,12 +7,17 @@
 body {
     background-color: #688374;
 }
+
 header,
 nav,
 main,
 footer {
     width: 75%;
     margin: auto;
+}
+
+main {
+    display: flex;
 }
 
 header {
@@ -23,20 +28,30 @@ nav {
     background-color: #776575;
 }
 
+main,
+footer,
 section,
-aside,
-footer {
+aside {
     background-color: #f6fafb;
 }
 
 section {
     width: 75%;
     float: right;
+    flex: 1;
 }
 
 aside {
     width: 25%;
     float: left;
+    flex: 1;
+}
+
+img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5%;
 }
 
 footer {
