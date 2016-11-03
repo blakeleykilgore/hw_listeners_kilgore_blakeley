@@ -1,27 +1,35 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #e9f7b4;
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
 form {
     text-align: center;
-    margin-top: 5%;
+    background-color: #fff8dd;
+    padding: 5%;
 }
 
 input,
 textarea {
     width: 50%;
-    margin: 1% auto;
+    margin: 3% auto;
     display: block;
     padding: 1.5% 0;
 }
 
 textarea {
     min-height: 200px;
+    border-radius: 10%;
 }
 
 input {
@@ -30,4 +38,27 @@ input {
 
 label {
     font-size: 2em;
+}
+
+.orange {
+    background-color: #ffcd6b;
+}
+
+.darkBlue {
+    background-color: #3c89fc;
+}
+
+.lightBlue {
+    background-color: #9cd0f4;
+}
+
+.green {
+    background-color: #bbf26a;
+}
+
+.button {
+    color: #fff8dd;
+    border-radius: 50%;
+    width: 25%;
+    margin-top: 5%;
 }
