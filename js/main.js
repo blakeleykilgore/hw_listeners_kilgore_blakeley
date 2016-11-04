@@ -31,5 +31,10 @@ var form = document.getElementsByTagName('form')[0];
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-    console.log('Test');
+    var paragraph = document.createElement('p');
+    if (document.getElementsByTagName('p').length < 4) {
+        paragraph.innerHTML = '<h5>Yay! You submitted!</h5>';
+        document.getElementsByTagName('footer')[0].appendChild(paragraph);
+        paragraph.style.color = '#776575';
+    }
 });
