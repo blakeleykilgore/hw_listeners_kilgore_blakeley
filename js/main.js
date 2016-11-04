@@ -9,7 +9,7 @@ header.addEventListener('click', function () {
 var menu = document.getElementsByTagName('nav')[0];
 
 menu.addEventListener('mouseover', function () {
-    console.log('Test');
+    menu.style.width = '100%';
 });
 
 // Event Listener for 'mouseenter' of image 1
