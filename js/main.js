@@ -21,7 +21,7 @@ image.addEventListener('mouseenter', function change() {
     document.getElementById('new-image').src = 'img/image2.jpeg';
 });
 
-image2.addEventListener('mouseenter', function change2() {
+image2.addEventListener('mouseleave', function change2() {
     image2.id = 'new-image2';
     document.getElementById('new-image2').src = 'img/image1.jpeg';
 });
