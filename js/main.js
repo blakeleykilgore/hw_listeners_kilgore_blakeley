@@ -12,18 +12,18 @@ menu.addEventListener('mouseover', function () {
     menu.style.width = '100%';
 });
 
-// Event Listener for 'mouseenter' of image 1
+// Event Listener for 'mouseenter' of images
 var image = document.getElementsByTagName('img')[0];
-
-image.addEventListener('mouseenter', function () {
-    console.log('Test');
-});
-
-// Event Listener for 'mouseenter' of image 2
 var image2 = document.getElementsByTagName('img')[1];
 
-image2.addEventListener('mouseenter', function () {
-    console.log('Test');
+image.addEventListener('mouseenter', function change() {
+    image.id = 'new-image';
+    document.getElementById('new-image').src = 'img/image2.jpeg';
+});
+
+image2.addEventListener('mouseenter', function change2() {
+    image2.id = 'new-image2';
+    document.getElementById('new-image2').src = 'img/image1.jpeg';
 });
 
 // Event Listener for 'submit' of the form
