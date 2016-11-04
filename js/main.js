@@ -2,7 +2,7 @@
 var header = document.getElementsByTagName('h1')[0];
 
 header.addEventListener('click', function () {
-    console.log('Test');
+    header.style.color = '#37ddd5';
 });
 
 // Event Listener for 'mouseover' of the nav
