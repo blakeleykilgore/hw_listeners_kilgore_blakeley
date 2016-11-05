@@ -6,6 +6,7 @@ header.addEventListener('click', function () {
 });
 // Changes color of h1
 
+
 // Event Listener for 'mouseover' of the nav
 var menu = document.getElementsByTagName('nav')[0];
 
@@ -14,7 +15,8 @@ menu.addEventListener('mouseover', function () {
 });
 // Change width of nav
 
-// Event Listener for 'mouseenter' of images
+
+// Event Listener for 'mouseenter' of image 1
 var image = document.getElementsByTagName('img')[0];
 var image2 = document.getElementsByTagName('img')[1];
 
@@ -23,11 +25,15 @@ image.addEventListener('mouseenter', function change() {
     document.getElementById('new-image').src = 'img/image2.jpeg';
 });
 // Change image on mouseenter
+
+
+// Event Listener for 'mouseleave' of image 2
 image2.addEventListener('mouseleave', function change2() {
     image2.id = 'new-image2';
     document.getElementById('new-image2').src = 'img/image1.jpeg';
 });
 // Change image on mouseleave
+
 
 // Event Listener for 'submit' of the form
 var form = document.getElementsByTagName('form')[0];
